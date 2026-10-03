@@ -173,9 +173,9 @@ int main() {
         int dst = (num_of_line % 2) ? p1[1] : p2[1];
 
         if (write(dst, line, (size_t)len) == -1) 
-            error("write line"); 
+            error("error: write line"); 
         if (write(dst, "\n", 1) == -1) 
-            error("write new line"); 
+            error("error: write new line"); 
     }
 
 	close(p1[1]);
