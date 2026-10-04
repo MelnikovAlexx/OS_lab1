@@ -5,5 +5,6 @@
 
 <h2>Running</h2>
 ./parent
-<br><strong>IMPORTANT!</strong>
+
+<br><br><strong>IMPORTANT!</strong>
 <br>files child1.c and child2.c must be located in the same directory with parent.c
